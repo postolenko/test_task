@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1400px) {
+	.row {
+		padding: 0 25px;
+	}
+}
+
+@media only screen and (max-width: 1240px) {
+
+/*-- Header --*/
+
+	.top_row {
+	    padding: 3px 25px 0 25px;
+	}
+
+/*-- /Header --*/
+
+/*-- Section 1 --*/
+
+	.promo_sect {
+	    padding: 177px 0 0 0;
+	}
+
+	.h1_wrapp h1 {
+	    font-size: 64px;
+	    line-height: 80px;
+	}
+
+	.h1_descript p {
+	    font-size: 33px;
+	    line-height: 39px;
+	}
+
+	.transparent_pill {
+	    min-width: 275px;
+	    margin: 30px 0;
+	    padding: 14px 15px 14px 15px;
+	    font-size: 30px;
+	    line-height: 36px;
+	}
+
+/*-- /Section 1 --*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/*-- Header --*/
+
+	.logo {
+	    max-width: 160px;
+	}
+
+	.top_row .left {
+	    width: calc(100% - 130px);
+	    padding-top: 4px;
+	}
+
+	.top_row .right {
+		width: 130px;
+	    padding: 15px 30px 10px 10px;
+	}
+
+	.top_row .right .respmenubtn {
+	    top: 12px;
+	    right: -5px;
+	}
+
+	.switch_lang li {
+	    padding: 0 16px 0 10px;
+	}
+
+	.switch_lang li:after {
+	    font-size: 20px;
+	    line-height: 22px;
+	    top: -1px;
+	}
+
+	.switch_lang li a {
+	    font-size: 16px;
+	    line-height: 21px;
+	 }
+
+	.logos_slide {
+	    height: 64px;
+	}
+
+	.logos_slide .logo {
+	    margin: 9px 15px;
+	}
+
+	.logos_slide .mCSB_buttonLeft {
+	    height: 64px !important;
+	    width: 31px !important;
+	    top: -48px;
+	}
+
+	.logos_slide .mCSB_buttonRight {
+	    height: 64px !important;
+	    width: 31px !important;
+	    top: -48px;
+	}
+
+/*-- /Header --*/
+
+/*-- Section 1 --*/
+
+	.promo_sect {
+	    padding: 131px 0 20px 0;
+	    background-image: url(img/img-bg_resp.jpg);
+	}
+
+	.h1_wrapp h1 {
+	    font-size: 53px;
+	    line-height: 64px;
+	}
+
+/*-- /Section 1 --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+/*-- Section 1 --*/
+
+	.h1_wrapp h1 {
+	    font-size: 46px;
+	    line-height: 53px;
+	}
+
+	.h1_descript p {
+	    font-size: 26px;
+	    line-height: 33px;
+	}
+
+	.transparent_pill {
+	    min-width: 230px;
+	    margin: 18px 0;
+	    padding: 9px 15px 11px 15px;
+	    font-size: 27px;
+	    line-height: 36px;
+	}
+
+/*-- /Section 1 --*/
+
+}
+
+
+@media only screen and (max-width: 480px) {
+	
+/*-- Section 1 --*/
+
+	.h1_wrapp:after {
+	    width: 95px;
+	}
+
+	.h1_wrapp h1 {
+	    font-size: 34px;
+	    line-height: 40px;
+	}
+
+	.h1_descript p {
+	    font-size: 23px;
+	    line-height: 30px;
+	}
+
+/*-- /Section 1 --*/
+
+}
